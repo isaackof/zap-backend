@@ -5,8 +5,8 @@ import time
 
 def main(page: ft.Page):
     page.title = "Zap Real"
-    BACKEND_URL = "http://127.0.0.1:5000"
-    
+    BACKEND_URL = "https://web-production-95a81.up.railway.app"
+
     username_field = ft.TextField(label="Username", width=250)
     status = ft.Text("Clique registrar", size=16)
     

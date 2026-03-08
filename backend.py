@@ -43,7 +43,7 @@ def enviar(username, mensagem):
     player_id = usuarios[username]
     
     # SIMULAÇÃO (sem erro UUID) - mude SIMULAR=False pra OneSignal real
-    SIMULAR = True  # ← Mude pra False quando tiver Player ID real
+    SIMULAR = False  # ← Mude pra False quando tiver Player ID real
     
     if SIMULAR:
         return f"✅ SIMULAÇÃO OK: '{mensagem}' seria enviada pra @{username} (Player ID: {player_id})"
